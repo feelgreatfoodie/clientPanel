@@ -11,6 +11,7 @@ import { Client } from '../../models/Client'
 })
 export class ClientsComponent implements OnInit {
   clients: Client[]
+  // totalOwed: number
 
   constructor(private clientService: ClientService) { }
 
