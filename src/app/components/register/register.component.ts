@@ -33,6 +33,6 @@ export class RegisterComponent implements OnInit {
         this.flashMessage.show(err.message, {
           cssClass: 'alert-danger', timeout: 3000
       })
+    })
   }
-
 }
